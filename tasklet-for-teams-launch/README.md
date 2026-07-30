@@ -1,8 +1,22 @@
-# Tasklet for Teams — Launch Film
+# Tasklet for Teams — Launch Film (5 styles)
 
-20-second Remotion launch film for [Tasklet for Teams](https://tasklet.ai/blog/2026-06-04-tasklet-for-teams).
+20-second Remotion launch films for [Tasklet for Teams](https://tasklet.ai/blog/2026-06-04-tasklet-for-teams).
 
-Built with the portfolio **animation-creator** skill + official [Remotion agent skills](https://www.remotion.dev/docs/ai/skills) (`npx skills add remotion-dev/skills`).
+Craft reference: [Benji Taylor / X launch motion](https://x.com/benjitaylor/status/2082515001949221152) — same story, five visual languages.
+
+Built with **animation-creator** + [Remotion agent skills](https://www.remotion.dev/docs/ai/skills).
+
+## Styles
+
+| Composition | Style | What it borrows from the X film |
+|---|---|---|
+| `Style-SoftBrand` | Tasklet brand | Season Mix + fern/mint (original) |
+| `Style-EditorialMono` | Editorial mono | Pure B/W Inter, kinetic type, dashed-ring punches, node fields |
+| `Style-TerminalPrompt` | Terminal | `›` prompt, caret typing, ghost autocomplete, light↔dark flips |
+| `Style-UIChrome` | UI chrome | Floating pills, black CTA capsules, prompt bars |
+| `Style-PunchCut` | Punch cut | Rapid word punches, motion-path arcs, alternating black/white |
+
+All: **1920×1080 · 20s · 30fps · silent**
 
 ## Preview
 
@@ -12,25 +26,16 @@ npm i
 npm run dev
 ```
 
-Open composition **TaskletForTeams** (1920×1080, 20s @ 30fps).
+Open any `Style-*` composition in the Studio.
 
 ## Render
 
 ```bash
-npx remotion render TaskletForTeams out/tasklet-for-teams.mp4
+npx remotion render Style-EditorialMono out/Style-EditorialMono.mp4
+npx remotion render Style-TerminalPrompt out/Style-TerminalPrompt.mp4
+npx remotion render Style-UIChrome out/Style-UIChrome.mp4
+npx remotion render Style-PunchCut out/Style-PunchCut.mp4
+npx remotion render Style-SoftBrand out/tasklet-for-teams.mp4
 ```
 
-## Beat sheet
-
-| Time | Scene |
-|---|---|
-| 0.0–2.4s | Introducing (kinetic type) |
-| 2.2–4.6s | Tasklet for Teams |
-| 4.4–7.0s | AI command center |
-| 6.8–9.5s | Share tool access |
-| 9.3–12.0s | Workspace Knowledge |
-| 11.8–14.4s | Share agents · 24/7 |
-| 14.2–16.6s | Models + spend control |
-| 16.4–20.0s | Available now · tasklet.ai |
-
-See `animation-config.md` for tokens and handoff.
+See `animation-config.md` for beat sheets and tokens.
