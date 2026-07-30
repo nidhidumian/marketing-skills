@@ -81,9 +81,11 @@ Once you have a `brand-config.md`:
 ## Part of the Marketing Skills Portfolio
 
 ```
-brand-style-creator/   ← You are here (foundation)
+brand-style-creator/   ← You are here (foundation — look)
       ↓
-ad-creator/            ← Consumes brand-config.md
+animation-creator/     ← Motion system — how it moves
+      ↓
+ad-creator/            ← Consumes brand-config.md + animation-config.md
       ↓
 ads-ab-testing/        ← Analyzes performance after 7–14 days
 ```
