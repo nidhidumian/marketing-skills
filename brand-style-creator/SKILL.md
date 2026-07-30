@@ -719,7 +719,7 @@ Once a brand-config.md exists, use it to brief AI for:
 
 **Design & Visual**
 - Landing pages (layout, copy, CSS — all on-brand)
-- Motion systems — hero entrances, scroll reveals, micro-interactions (via Animation Creator skill)
+- Product launch films — kinetic type, UI proof, CTA holds (via Animation Creator skill)
 - Ad creatives — static, carousel, reel (via Ad Creator skill)
 - Social media creatives (exact colors, fonts, tone per platform)
 - Claude Design prompts (paste config → builds on-brand visuals)

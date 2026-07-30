@@ -83,7 +83,7 @@ Once you have a `brand-config.md`:
 ```
 brand-style-creator/   ← You are here (foundation — look)
       ↓
-animation-creator/     ← Motion system — how it moves
+animation-creator/     ← Launch films — how the announcement moves
       ↓
 ad-creator/            ← Consumes brand-config.md + animation-config.md
       ↓
