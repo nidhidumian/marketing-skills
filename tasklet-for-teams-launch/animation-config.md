@@ -101,7 +101,35 @@ dont:
 
 ---
 
-## HANDOFF BLOCK
+## STYLES
+
+# Same 20s story; different craft languages from the X launch film reference.
+# https://x.com/benjitaylor/status/2082515001949221152
+
+styles:
+  - id: Style-SoftBrand
+    temperament: soft-product
+    notes: "Season Mix + fern/mint Tasklet brand (original)"
+  - id: Style-EditorialMono
+    temperament: editorial-mono
+    notes: "Pure B/W Inter, kinetic type, dashed-ring punches, node fields"
+  - id: Style-TerminalPrompt
+    temperament: industrial
+    notes: "› prompt, caret typing, ghost autocomplete, light↔dark flips"
+  - id: Style-UIChrome
+    temperament: soft-product
+    notes: "Floating pills, black CTA capsules, prompt bars"
+  - id: Style-PunchCut
+    temperament: bold-campaign
+    notes: "Rapid word punches, motion-path arcs, alternating black/white"
+
+render_examples:
+  - npx remotion render Style-EditorialMono out/Style-EditorialMono.mp4
+  - npx remotion render Style-TerminalPrompt out/Style-TerminalPrompt.mp4
+  - npx remotion render Style-UIChrome out/Style-UIChrome.mp4
+  - npx remotion render Style-PunchCut out/Style-PunchCut.mp4
+  - npx remotion render Style-SoftBrand out/tasklet-for-teams.mp4
+
 
 product_name: Tasklet for Teams
 launch_promise: Your company's AI command center.
