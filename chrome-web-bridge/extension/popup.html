@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chrome Web Bridge</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <img src="icons/icon32.png" alt="" width="24" height="24" />
+      <div>
+        <h1>Chrome Web Bridge</h1>
+        <p class="subtitle">AI agent ↔ your browser</p>
+      </div>
+    </div>
+    <span id="status" class="status off">OFF</span>
+  </header>
+
+  <label class="field">
+    <span>Bridge WebSocket URL</span>
+    <input id="bridgeUrl" type="text" spellcheck="false" autocomplete="off" />
+  </label>
+
+  <label class="toggle">
+    <input id="autoConnect" type="checkbox" />
+    <span>Auto-connect on Chrome start</span>
+  </label>
+
+  <div class="actions">
+    <button id="connectBtn" class="primary" type="button">Connect</button>
+    <button id="disconnectBtn" type="button">Disconnect</button>
+  </div>
+
+  <p id="hint" class="hint">
+    Start the local bridge first:<br />
+    <code>cd bridge && npm start</code>
+  </p>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>
